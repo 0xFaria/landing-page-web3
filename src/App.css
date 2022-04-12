@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background: #2F3142;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 96px;
+  align-items: center;
+  backdrop-filter: blur(45px);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  width: 378px;
+  height: 42px;
+  background: transparent;
+  border-image: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%) 1;
+}
+
+.searchLogo {
+  display: flex;
+  gap: 97px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.menu ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  align-content: center;
+  align-items: center;
+}
+
+li {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+
+li:nth-child(3) button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border: 2px solid;
+  padding: 6px 24px 6px 24px;
+  border-image: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%) 1;
+  font-size: 16px;
+}
+
+li:last-child button {
+  background: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%);
+  border: none;
+  padding: 8px 24px 8px 24px;
+  color: #fff;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .text {
+  z-index: 99;
+  width: 976px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 96px;
+  gap: 34px;
+}
+
+main .text h1 {
+  color: #fff;
+  font-size: 36px;
+}
+
+main .text p {
+  color: gray;
+}
+
+main .image {
+  margin-top: -90px;
+  max-width: 884px;
+}
+
+.buttons {
+  display: flex;
+  gap: 34px;
+}
+
+.buttons button {
+  width: 200px;
+  height: 56px;
+  border-radius: 90px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.buttons button:first-child {
+  background: transparent;
+  border: 2px solid #73e0a9;
+}
+
+.buttons button:last-child {
+  border: 2px solid #2F3142;
+  background: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%);
+}
